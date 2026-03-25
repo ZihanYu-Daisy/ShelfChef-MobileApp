@@ -48,7 +48,7 @@ To test SDK 53 projects you can:
 
 
 ## 📁 Project Structure
-main
+```text
 ├── app/
 │   ├── (tabs)/                 ← Expo-Router tab group
 │   │   ├── index.tsx          ← Pantry screen  | camera + matcher
@@ -70,6 +70,7 @@ main
 ├── package-lock.json
 ├── tsconfig.json
 └── README.md
+```
 
 ## 🚀 Future Roadmap
 - 🔍 Cloud recipe search (OpenAI Function-calling → dynamic suggestions).
