@@ -1,50 +1,18 @@
-# Welcome to your Expo app 👋
+# ShelfChef: Your Pantry Management
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+Spearheaded the end-to-end development of a mobile application designed to standardize home inventory management and reduce food waste through intelligent recipe generation.
 
-## Get started
+## 🚀 Key Features
+   Inventory Capture: Integrated device camera functionality to catalog pantry items efficiently.
+   Dynamic Recipe Retrieval: Utilized REST APIs to retrieve and display personalized recipes based on real-time ingredient availability.
+   Reliable User Experience: Implemented local state management to ensure offline-friendly data persistence and a seamless user flow.
+   
+## 🛠 Tech Stack
+   Frontend: React Native, TypeScript, Expo
+   Backend Integration: REST APIs (Spoonacular/Food APIs)
+   
 
-1. Install dependencies
+## 📈 Product Vision
 
-   ```bash
-   npm install
-   ```
+As the sole developer and product owner, I iterated on user feedback to refine the UI, focusing on the "0 to 1" journey of transforming raw ingredient data into actionable cooking insights.
 
-2. Start the app
-
-   ```bash
-   npx expo start
-   ```
-
-In the output, you'll find options to open the app in a
-
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
-
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
-
-## Get a fresh project
-
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
