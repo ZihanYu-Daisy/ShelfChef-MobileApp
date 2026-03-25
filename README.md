@@ -10,7 +10,6 @@ Spearheaded the end-to-end development of a mobile application designed to stand
 ## 🛠 Tech Stack
 
    - Frontend: React Native, TypeScript, Expo
-   
    - Backend Integration: REST APIs (Spoonacular/Food APIs)
    
 
