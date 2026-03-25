@@ -47,25 +47,27 @@ To test SDK 53 projects you can:
 - create a custom dev-build with EAS (eas build --profile development).
 
 ## 🗂 Project Structure
-app/
-  (tabs)/                 ← Expo Router tab group
-    index.tsx            ← Pantry screen  | camera + matcher
-    recipes.tsx          ← External-API recipe library + details modal
-    settings.tsx         ← Theme toggle · pantry reset · links
-  _layout.tsx             ← Global router (status-bar, theme wrapper)
-
-assets/                   ← App icons, splash, mock photos
-components/               ← Reusable UI (buttons, cards, gradients …)
-hooks/                    ← useTheme · useColorScheme · other helpers
-constants/                ← Theme colors, type enums
-theme_context.tsx         ← Global ThemeProvider / Context
-scripts/
-  reset-project.js        ← One-off clean-install helper
-.gitignore
-app.json                  ← Expo config (SDK 53)
-package.json
-tsconfig.json
-README.md
+├── app/
+│   ├── (tabs)/                 ← Expo-Router tab group
+│   │   ├── index.tsx          ← Pantry screen  | camera + matcher
+│   │   ├── recipes.tsx        ← External-API recipe library + details modal
+│   │   └── settings.tsx       ← Theme toggle · pantry reset · helpful links
+│   └── _layout.tsx            ← Global router (status-bar, ThemeProvider wrapper)
+│
+├── assets/                     ← App icons, splash, mock photos
+├── components/                 ← Re-usable UI (buttons, cards, gradients …)
+├── hooks/                      ← useTheme · useColorScheme · misc helpers
+├── constants/                  ← Theme colors, enums
+├── theme_context.tsx           ← Global ThemeProvider / Context
+├── scripts/
+│   └── reset-project.js        ← One-off clean-install helper
+│
+├── .gitignore
+├── app.json                    ← Expo config (SDK 53)
+├── package.json
+├── package-lock.json
+├── tsconfig.json
+└── README.md
 
 ## 🚀 Future Roadmap
 - 🔍 Cloud recipe search (OpenAI Function-calling → dynamic suggestions).
