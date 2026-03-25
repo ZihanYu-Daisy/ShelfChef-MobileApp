@@ -48,6 +48,7 @@ To test SDK 53 projects you can:
 
 
 ## 📁 Project Structure
+main
 ├── app/
 │   ├── (tabs)/                 ← Expo-Router tab group
 │   │   ├── index.tsx          ← Pantry screen  | camera + matcher
