@@ -46,7 +46,8 @@ To test SDK 53 projects you can:
 - run in an **iOS simulator** (npx expo run:ios), **or**
 - create a custom dev-build with EAS (eas build --profile development).
 
-## 🗂 Project Structure
+
+## 📁 Project Structure
 ├── app/
 │   ├── (tabs)/                 ← Expo-Router tab group
 │   │   ├── index.tsx          ← Pantry screen  | camera + matcher
