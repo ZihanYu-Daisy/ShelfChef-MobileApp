@@ -4,12 +4,15 @@ Spearheaded the end-to-end development of a mobile application designed to stand
 
 ## 🚀 Key Features
 
+```text
    Inventory Capture: Integrated device camera functionality to catalog pantry items efficiently.
-   
+   ```
+```text
    Dynamic Recipe Retrieval: Utilized REST APIs to retrieve and display personalized recipes based on real-time ingredient availability.
-   
+   ```
+```text
    Reliable User Experience: Implemented local state management to ensure offline-friendly data persistence and a seamless user flow.
-   
+   ```
 ## 🛠 Tech Stack
 
    Frontend: React Native, TypeScript, Expo
