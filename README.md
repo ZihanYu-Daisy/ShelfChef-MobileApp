@@ -48,17 +48,24 @@ To test SDK 53 projects you can:
 
 ## 🗂 Project Structure
 app/
-  (tabs)/              ← Expo Router tab group
-    index.tsx          ← Pantry screen + camera & matcher
-    recipes.tsx        ← External API library + details modal
-    settings.tsx       ← Theme toggle & maintenance actions
-  _layout.tsx          ← Global router layout
-assets/                ← App icons & splash
-components/            ← Re-usable UI pieces
-hooks/                 ← `useTheme`, `useColorScheme`, …
-constants/             ← Theme colors, helper enums
-theme_context.tsx      ← Global ThemeProvider
-scripts/               ← one-off reset script
+  (tabs)/                 ← Expo Router tab group
+    index.tsx            ← Pantry screen  | camera + matcher
+    recipes.tsx          ← External-API recipe library + details modal
+    settings.tsx         ← Theme toggle · pantry reset · links
+  _layout.tsx             ← Global router (status-bar, theme wrapper)
+
+assets/                   ← App icons, splash, mock photos
+components/               ← Reusable UI (buttons, cards, gradients …)
+hooks/                    ← useTheme · useColorScheme · other helpers
+constants/                ← Theme colors, type enums
+theme_context.tsx         ← Global ThemeProvider / Context
+scripts/
+  reset-project.js        ← One-off clean-install helper
+.gitignore
+app.json                  ← Expo config (SDK 53)
+package.json
+tsconfig.json
+README.md
 
 ## 🚀 Future Roadmap
 - 🔍 Cloud recipe search (OpenAI Function-calling → dynamic suggestions).
